@@ -75,35 +75,8 @@ Execute on bash shell:
 **_Lab 3 - Challenge time!_**
 
 Edit the Python script ./changeStreams.py to do the following:
-- For every customer where document type is a passport that receives a modification, detect the change and save a document in a collection named 'eventos_pasaporte' with the field that changed.
+- Filter updates and print in the console only the updates performed on customers where document type is a passport.
 
-This is an example of that document after being inserted in 'eventos_pasaporte'
-```yaml
-{
-  "_id": {
-    "$oid": "63cead3133ebd0dedbe8188d"
-  },
-  "documentNumber": "45327569C"
-}
-```
-
-
-BONUS POINTS: 
-In addition to the delta, include the _id of the document that has changed.
-This is an example of that document after being inserted in 'eventos_pasaporte'
-```yaml
-{
-  "_id": {
-    "$oid": "63ceadd04f038409c7fd02d0"
-  },
-  "delta": {
-    "documentNumber": "45327569D"
-  },
-  "sourceId": {
-    "$oid": "63ce974c6f1caca15c6c9fab"
-  }
-}
-```
 
 ---
 ## MongoDB Atlas Charts
