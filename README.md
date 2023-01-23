@@ -86,9 +86,9 @@ Edit the Python script ./changeStreams.py to do the following:
 ![charts1](img/charts1.png "Adding the aggregation to the chart")
 ![charts2](img/charts2.png "Chart with aggregation created")
 
-This is the aggregation pipeline you can use:
+This is the aggregation pipeline (yaml file) you can use:
 
-```yaml
+```
 [{$set:{
 	companyEndDate:{
 		$toDate:'$companyEndDate'
