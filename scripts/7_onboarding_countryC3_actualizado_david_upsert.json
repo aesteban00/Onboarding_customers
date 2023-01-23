@@ -1,0 +1,769 @@
+[{
+  "country": "C4",
+  "documentNumber": "00062155809",
+  "accountsList": [
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000001098632",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000061278800",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000099924241",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005100004145",
+      "currencyCode": "USD",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005100174687",
+      "currencyCode": "GBP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005101088806",
+      "currencyCode": "EUR",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    }
+  ],
+  "addressList": [
+    {
+      "addressType": "WORK",
+      "streetName": "AV. GLADYS MARIN",
+      "streetBuildingId": "5830",
+      "postCodeId": "9160000",
+      "townName": "ESTACION CENTRAL",
+      "state": "SANTIAGO",
+      "buildingName": null,
+      "floor": null,
+      "districtName": null,
+      "regionId": "REGION METROPOLITANA",
+      "countryId": null,
+      "postOfficeBox": null,
+      "province": "SANTIAGO",
+      "department": null,
+      "subDepartment": null,
+      "location": null,
+      "country": "ARGENTINA"
+    }
+  ],
+  "agent": "BSCHCLRM",
+  "cmc": "00000000000041300965723609",
+  "companyAdditionalDetail": "2910",
+  "companyEndDate": "9999-12-31",
+  "companyId": "00965723609",
+  "companyName": "COML KAUFMANN S A",
+  "companyStartDate": "1901-01-01",
+  "companyType": null,
+  "contactDataMOBI": "962802728",
+  "contactDataMail": "",
+  "contactList": [
+    {
+      "contactType": "MOBI",
+      "contactData": "962802728"
+    },
+    {
+      "contactType": "MAIL",
+      "contactData": "QA-AMBIENTES@ALTEC-SANTANDER.COM"
+    }
+  ],
+  "countryDocument": "CL",
+  "countryIncorporation": "CL",
+  "documentList": [
+    {
+      "documentType": "tax_id",
+      "documentNumber": "00965723609"
+    },
+    {
+      "documentType": "kgl",
+      "documentNumber": "55ZM"
+    }
+  ],
+  "documentType": "national_id_card",
+  "entity": "0035",
+  "firstName": "DANIEL",
+  "internalRepresentUser": "0096572360900062155809",
+  "lastName": "DANIEL",
+  "relationshipType": "others_legal_representatives",
+  "segmentLocal": "GRANDES EMPRESAS",
+  "segmentTypeGlobal": "00",
+  "segmentTypeLocal": "420",
+  "tradeName": "MERCEDES BENZ",
+  "typeDisposition": "JOINT"
+},{
+  "country": "C2",
+  "documentNumber": "00063852899",
+  "accountsList": [
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350045000000333611",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350051000000333654",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000000468592",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000001025767",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350300000003623629",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000004310330",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000004881796",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350011000011053114",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350016000016068675",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350017000017027360",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350024000024031640",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350025000025038614",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350026000026063620",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350031000031052580",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350043000043051180",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350044000044005603",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350059000059017900",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000061278818",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000061557512",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000062872888",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000062872934",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000062872950",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203005100078688",
+      "currencyCode": "USD",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    }
+  ],
+  "addressList": [
+    {
+      "addressType": "WORK",
+      "streetName": "AV. GLADYS MARIN",
+      "streetBuildingId": "5830",
+      "postCodeId": "9160000",
+      "townName": "ESTACION CENTRAL",
+      "state": "SANTIAGO",
+      "buildingName": null,
+      "floor": null,
+      "districtName": null,
+      "regionId": "REGION METROPOLITANA",
+      "countryId": null,
+      "postOfficeBox": null,
+      "province": "SANTIAGO",
+      "department": null,
+      "subDepartment": null,
+      "location": null,
+      "country": "ARGENTINA"
+    }
+  ],
+  "agent": "BSCHCLRM",
+  "cmc": "00000000000041300924750006",
+  "companyAdditionalDetail": "2910",
+  "companyEndDate": "9999-12-31",
+  "companyId": "00924750006",
+  "companyName": "KAUFMANN S A VEHICULOS MOTORIZADOS",
+  "companyStartDate": "1901-01-01",
+  "companyType": null,
+  "contactDataMOBI": "962802728",
+  "contactDataMail": "",
+  "contactList": [
+    {
+      "contactType": "MOBI",
+      "contactData": "962802728"
+    },
+    {
+      "contactType": "MAIL",
+      "contactData": "QA-AMBIENTES@ALTEC-SANTANDER.COM"
+    }
+  ],
+  "countryDocument": "CL",
+  "countryIncorporation": "CL",
+  "documentList": [
+    {
+      "documentType": "tax_id",
+      "documentNumber": "00924750006"
+    },
+    {
+      "documentType": "kgl",
+      "documentNumber": "KSV0"
+    }
+  ],
+  "documentType": "national_id_card",
+  "entity": "0035",
+  "firstName": "ALEXANDER",
+  "internalRepresentUser": "0092475000600063852899",
+  "lastName": "ALEXANDER",
+  "relationshipType": "others_legal_representatives",
+  "segmentLocal": "GRANDES EMPRESAS",
+  "segmentTypeGlobal": "00",
+  "segmentTypeLocal": "420",
+  "tradeName": "KAUFMANN S A VEHICULOS MOTORIZ",
+  "typeDisposition": "JOINT"
+},{
+  "country": "C2",
+  "documentNumber": "00209481960",
+  "accountsList": [
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000001098632",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000061278800",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000099924241",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005100004145",
+      "currencyCode": "USD",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005100174687",
+      "currencyCode": "GBP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005101088806",
+      "currencyCode": "EUR",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    }
+  ],
+  "addressList": [
+    {
+      "addressType": "WORK",
+      "streetName": "AV. GLADYS MARIN",
+      "streetBuildingId": "5830",
+      "postCodeId": "9160000",
+      "townName": "ESTACION CENTRAL",
+      "state": "SANTIAGO",
+      "buildingName": null,
+      "floor": null,
+      "districtName": null,
+      "regionId": "REGION METROPOLITANA",
+      "countryId": null,
+      "postOfficeBox": null,
+      "province": "SANTIAGO",
+      "department": null,
+      "subDepartment": null,
+      "location": null,
+      "country": "ARGENTINA"
+    }
+  ],
+  "agent": "BSCHCLRM",
+  "cmc": "00069002095091000965723609",
+  "companyAdditionalDetail": "2910",
+  "companyEndDate": "9999-12-31",
+  "companyId": "00965723609",
+  "companyName": "COML KAUFMANN S A",
+  "companyStartDate": "1901-01-01",
+  "companyType": null,
+  "contactDataMOBI": "114454555",
+  "contactDataMail": "cris@mail.com",
+  "contactList": [
+    {
+      "contactType": "MOBI",
+      "contactData": "114454555"
+    },
+    {
+      "contactType": "MAIL",
+      "contactData": "QA-AMBIENTES@ALTEC-SANTANDER.COM"
+    }
+  ],
+  "countryDocument": "CL",
+  "countryIncorporation": "CL",
+  "documentList": [
+    {
+      "documentType": "tax_id",
+      "documentNumber": "00965723609"
+    },
+    {
+      "documentType": "kgl",
+      "documentNumber": "55ZM"
+    }
+  ],
+  "documentType": "national_id_card",
+  "entity": "0035",
+  "firstName": "Gonzalito",
+  "internalRepresentUser": "0096572360900209481960",
+  "lastName": "Gonzalito",
+  "relationshipType": "others_legal_representatives",
+  "segmentLocal": "GRANDES EMPRESAS",
+  "segmentTypeGlobal": "00",
+  "segmentTypeLocal": "420",
+  "tradeName": "MERCEDES BENZ",
+  "typeDisposition": "JOINT"
+},{
+  "country": "C2",
+  "documentNumber": "0013011248K",
+  "accountsList": [
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000001098632",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350203000061278800",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401000099924241",
+      "currencyCode": "CLP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005100004145",
+      "currencyCode": "USD",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005100174687",
+      "currencyCode": "GBP",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    },
+    {
+      "status": "Open",
+      "agentAccount": "BSCHCLR0",
+      "accountTypeIba": null,
+      "accountIdIba": null,
+      "accountTypeBba": "BBA",
+      "accountIdBba": "00350401005101088806",
+      "currencyCode": "EUR",
+      "balanceAllowed": true,
+      "transactionsAllowed": true,
+      "internationalPaymentsAllowed": true
+    }
+  ],
+  "addressList": [
+    {
+      "addressType": "WORK",
+      "streetName": "AV. GLADYS MARIN",
+      "streetBuildingId": "5830",
+      "postCodeId": "9160000",
+      "townName": "ESTACION CENTRAL",
+      "state": "SANTIAGO",
+      "buildingName": null,
+      "floor": null,
+      "districtName": null,
+      "regionId": "REGION METROPOLITANA",
+      "countryId": null,
+      "postOfficeBox": null,
+      "province": "SANTIAGO",
+      "department": null,
+      "subDepartment": null,
+      "location": null,
+      "country": "ARGENTINA"
+    }
+  ],
+  "agent": "BSCHCLRM",
+  "cmc": "00000000000041300965723609",
+  "companyAdditionalDetail": "2910",
+  "companyEndDate": "9999-12-31",
+  "companyId": "00965723609",
+  "companyName": "COML KAUFMANN S A",
+  "companyStartDate": "1901-01-01",
+  "companyType": null,
+  "contactDataMOBI": "962802728",
+  "contactDataMail": "",
+  "contactList": [
+    {
+      "contactType": "MOBI",
+      "contactData": "962802728"
+    },
+    {
+      "contactType": "MAIL",
+      "contactData": "QA-AMBIENTES@ALTEC-SANTANDER.COM"
+    }
+  ],
+  "countryDocument": "CL",
+  "countryIncorporation": "CL",
+  "documentList": [
+    {
+      "documentType": "tax_id",
+      "documentNumber": "00965723609"
+    },
+    {
+      "documentType": "kgl",
+      "documentNumber": "55ZM"
+    }
+  ],
+  "documentType": "national_id_card",
+  "entity": "0035",
+  "firstName": "Juan",
+  "internalRepresentUser": "009657236090013011248K",
+  "lastName": "Juan",
+  "relationshipType": "others_legal_representatives",
+  "segmentLocal": "GRANDES EMPRESAS",
+  "segmentTypeGlobal": "00",
+  "segmentTypeLocal": "420",
+  "tradeName": "MERCEDES BENZ",
+  "typeDisposition": "JOINT"
+}]

@@ -1,0 +1,183 @@
+{
+    "exportVersion": 6,
+    "dashboards": {
+        "dashboard-1": {
+            "description": "",
+            "embedding": {},
+            "filters": [],
+            "layout": [
+                {
+                    "i": "item-1",
+                    "w": 4,
+                    "h": 2,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "i": "item-2",
+                    "w": 4,
+                    "h": 2,
+                    "x": 4,
+                    "y": 0
+                }
+            ],
+            "title": "PagoNxt"
+        }
+    },
+    "items": {
+        "item-1": {
+            "calculatedFields": [],
+            "channels": {
+                "x": {
+                    "channelType": "category",
+                    "inferredType": "Number",
+                    "field": "creationyear",
+                    "type": "nominal",
+                    "isBinning": false,
+                    "quantitativeBinning": {
+                        "binSize": 10
+                    }
+                },
+                "y": {
+                    "channelType": "aggregation",
+                    "inferredType": "Number",
+                    "field": "numberofcompanies",
+                    "type": "quantitative",
+                    "aggregate": "sum"
+                }
+            },
+            "chartType": "Grouped Column",
+            "convertedFields": [],
+            "customisations": {
+                "options": {},
+                "axes": {
+                    "x": {
+                        "categoryLabelAngle": {
+                            "enabled": true,
+                            "value": "vertical"
+                        }
+                    },
+                    "y": {}
+                },
+                "channels": {
+                    "x": {
+                        "numberFormatting": {
+                            "enabled": true,
+                            "value": "Default"
+                        }
+                    },
+                    "y": {
+                        "numberFormatting": {
+                            "enabled": true,
+                            "value": "Default"
+                        }
+                    }
+                },
+                "conditionalFormatting": []
+            },
+            "dashboardId": "dashboard-1",
+            "dataSourceId": "data-source-1",
+            "description": "",
+            "filters": [
+                {
+                    "fieldPath": "creationyear",
+                    "type": "Number",
+                    "disabled": false,
+                    "settings": {
+                        "min": {
+                            "enabled": true,
+                            "value": "1900",
+                            "inclusive": true
+                        },
+                        "max": {
+                            "enabled": false,
+                            "value": "",
+                            "inclusive": true
+                        }
+                    }
+                }
+            ],
+            "iconValue": "column-grouped",
+            "interactiveFiltering": "highlight",
+            "itemType": "chart",
+            "lookupFields": [],
+            "meta": {},
+            "missedFields": [],
+            "query": "[{$set:{\n\tcompanyEndDate:{\n\t\t$toDate:'$companyEndDate'\n\t}\n\t,companyStartDate:{\n\t\t$toDate:'$companyStartDate'\n\t}\n}\n}\n,{\n$group:{\n\t_id:{\n\t\t$year:'$companyStartDate'\n\t}\n\t,numberofcompanies:{\n\t\t$sum:1\n\t}\n}\n}\n,{\n$sort:{\n\t_id:-1\n}\n}\n,{\n$set:{\n\tcreationyear:'$_id'\n}\n}\n,{\n$project:{\n\tcreationyear:1,numberofcompanies:1,_id:0\n}\n}]",
+            "queryId": null,
+            "reductions": {},
+            "sample": false,
+            "title": "Number of companies per year",
+            "embedding": {}
+        },
+        "item-2": {
+            "calculatedFields": [],
+            "channels": {
+                "text": {
+                    "channelType": "category",
+                    "inferredType": "String",
+                    "field": "companyName",
+                    "type": "nominal",
+                    "isBinning": false
+                },
+                "size": {
+                    "channelType": "aggregation",
+                    "inferredType": "String",
+                    "field": "companyName",
+                    "type": "quantitative",
+                    "aggregate": "count"
+                },
+                "color": {
+                    "channelType": "category",
+                    "inferredType": "String",
+                    "field": "country",
+                    "type": "nominal",
+                    "isBinning": false
+                }
+            },
+            "chartType": "Word Cloud",
+            "convertedFields": [],
+            "customisations": {
+                "options": {},
+                "axes": {},
+                "channels": {
+                    "text": {},
+                    "size": {
+                        "numberFormatting": {
+                            "enabled": true,
+                            "value": "Default"
+                        }
+                    },
+                    "color": {}
+                },
+                "conditionalFormatting": []
+            },
+            "dashboardId": "dashboard-1",
+            "dataSourceId": "data-source-1",
+            "description": "",
+            "filters": [],
+            "iconValue": "word-cloud",
+            "interactiveFiltering": "highlight",
+            "itemType": "chart",
+            "lookupFields": [],
+            "meta": {},
+            "missedFields": [],
+            "query": null,
+            "queryId": null,
+            "reductions": {},
+            "sample": false,
+            "title": "Company name count per country",
+            "embedding": {}
+        }
+    },
+    "dataSources": {
+        "data-source-1": {
+            "alias": "Customer",
+            "collection": "Customer",
+            "database": "PagoNxt",
+            "deployment": "pocpgn",
+            "sourceType": "cluster"
+        }
+    },
+    "queries": {}
+}
