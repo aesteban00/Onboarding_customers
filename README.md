@@ -75,7 +75,7 @@ Execute on bash shell:
 **_Lab 3 - Challenge time!_**
 
 Edit the Python script ./changeStreams.py to do the following:
-- Filter updates and print in the console only the updates performed on customers where document type is a passport.
+- Filter updates and print in the console only the updates performed on customers where document type is a passport and company name is 'VULCO S A'
 
 
 ---
