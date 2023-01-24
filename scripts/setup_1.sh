@@ -6,6 +6,6 @@ sudo awk -v text="$line" '!/^#/ && !p {print text; p=1} 1' /etc/resolv.conf | su
 sudo cp ./resolv.conf /etc/resolv.conf
 sudo rm -rf ./resolv.conf
 cd ../scripts
-./download_JSON_files.sh
+unzip '*.zip'
 cd ..
 python ./indexCreation.py
