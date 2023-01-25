@@ -1,0 +1,8 @@
+{
+    "app_id": "mymobileapp-silmk",
+    "config_version": 20210101,
+    "name": "MyMobileApp",
+    "location": "IE",
+    "provider_region": "aws-eu-west-1",
+    "deployment_model": "LOCAL"
+}

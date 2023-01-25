@@ -132,3 +132,228 @@ $project:{
 
 **_This is a general view with all charts_**
 ![charts4](img/charts4.png "General view with all charts")
+
+---
+## MongoDB Atlas Realm Sync
+
+**_App Services and Sync_**
+
+You can also use App Services to synchronize bidirectionally a subset of your data with MongDB from your native mobile application.
+
+Once you open the Android project in Android Studio, you will find the classes containing the data model that have to match the schema generated in the App Services App.
+![realm1](img/realm1.png "Understanding the classes")
+
+In this screen you have the main parts of code you need to login and create the query that defines the subset of data that will be synchronized in MongoDB.
+- The first part is the Authorization (methods related with the App class) to login.
+- The second part you need is to define the set of classes that are part of the schema in the App in App Services
+- Then, define the query to create the subset. These queries can only use queryable fields (i.e.: fields you have defined in the App in App Services in the Sync section).
+
+![realm2](img/realm2.png "Understanding the classes")
+
+This screen shows the piece of code that you need to query the data locally (that will be synchronized in real time in a background thread for you).
+
+To create the query you use realm.query and the query you want to perform. This will create a pointer to your data but the query won't be executed until you start fetching data, and only the fields you use are the fields that will be loaded into memory.
+
+The collect method  is used to subscribe to changes in the data. For every change in your data, depending on the type of change, a piece of code can be executed to refresh your list. Doing this, you can only refresh the UI when a change has been detected.
+
+![realm3](img/realm3.png "Understanding the classes")
+
+Once you create the app in App Services, you can generate a schema out of your data.
+
+![realm4](img/realm4.png "App in App Services")
+
+Below is the schema you can use that matches the data layer in the Android app:
+
+```
+{
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "accountsList": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "accountIdBba": {
+            "bsonType": "string"
+          },
+          "accountTypeBba": {
+            "bsonType": "string"
+          },
+          "agentAccount": {
+            "bsonType": "string"
+          },
+          "balanceAllowed": {
+            "bsonType": "bool"
+          },
+          "currencyCode": {
+            "bsonType": "string"
+          },
+          "internationalPaymentsAllowed": {
+            "bsonType": "bool"
+          },
+          "status": {
+            "bsonType": "string"
+          },
+          "transactionsAllowed": {
+            "bsonType": "bool"
+          }
+        },
+        "title": "Accounts"
+      }
+    },
+    "addressList": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "addressType": {
+            "bsonType": "string"
+          },
+          "country": {
+            "bsonType": "string"
+          },
+          "postCodeId": {
+            "bsonType": "string"
+          },
+          "province": {
+            "bsonType": "string"
+          },
+          "regionId": {
+            "bsonType": "string"
+          },
+          "state": {
+            "bsonType": "string"
+          },
+          "streetBuildingId": {
+            "bsonType": "string"
+          },
+          "streetName": {
+            "bsonType": "string"
+          },
+          "townName": {
+            "bsonType": "string"
+          }
+        },
+        "title": "Addresses"
+      }
+    },
+    "agent": {
+      "bsonType": "string"
+    },
+    "cmc": {
+      "bsonType": "string"
+    },
+    "companyAdditionalDetail": {
+      "bsonType": "double"
+    },
+    "companyEndDate": {
+      "bsonType": "date"
+    },
+    "companyId": {
+      "bsonType": "string"
+    },
+    "companyName": {
+      "bsonType": "string"
+    },
+    "companyStartDate": {
+      "bsonType": "date"
+    },
+    "contactDataMOBI": {
+      "bsonType": "string"
+    },
+    "contactDataMail": {
+      "bsonType": "string"
+    },
+    "contactList": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "contactData": {
+            "bsonType": "string"
+          },
+          "contactType": {
+            "bsonType": "string"
+          }
+        },
+        "title": "Contacts"
+      }
+    },
+    "country": {
+      "bsonType": "string"
+    },
+    "countryDocument": {
+      "bsonType": "string"
+    },
+    "countryIncorporation": {
+      "bsonType": "string"
+    },
+    "documentList": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "documentNumber": {
+            "bsonType": "string"
+          },
+          "documentType": {
+            "bsonType": "string"
+          }
+        },
+        "title": "Documents"
+      }
+    },
+    "documentNumber": {
+      "bsonType": "string"
+    },
+    "documentType": {
+      "bsonType": "string"
+    },
+    "duration_days": {
+      "bsonType": "long"
+    },
+    "entity": {
+      "bsonType": "string"
+    },
+    "firstName": {
+      "bsonType": "string"
+    },
+    "internalRepresentUser": {
+      "bsonType": "string"
+    },
+    "lastName": {
+      "bsonType": "string"
+    },
+    "relationshipType": {
+      "bsonType": "string"
+    },
+    "segmentLocal": {
+      "bsonType": "string"
+    },
+    "segmentTypeGlobal": {
+      "bsonType": "string"
+    },
+    "segmentTypeLocal": {
+      "bsonType": "string"
+    },
+    "tradeName": {
+      "bsonType": "string"
+    },
+    "typeDisposition": {
+      "bsonType": "string"
+    }
+  },
+  "title": "Customer"
+}
+```
+
+Remember to enable the Email / Password authentication and create a user.
+
+![realm5](img/realm5.png "App in App Services")
+![realm6](img/realm6.png "App in App Services")
+
+Last step is to enable Sync. Here you have the configuration to use. You can see there the queryable fields that we are using in the Android app and the permissions we are defining on the data to secure it.
+ 
+![realm7](img/realm7.png "App in App Services")

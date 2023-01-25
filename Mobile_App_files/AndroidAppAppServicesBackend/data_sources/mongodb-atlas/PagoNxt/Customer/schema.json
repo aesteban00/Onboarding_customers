@@ -1,0 +1,182 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "accountsList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "accountIdBba": {
+                        "bsonType": "string"
+                    },
+                    "accountTypeBba": {
+                        "bsonType": "string"
+                    },
+                    "agentAccount": {
+                        "bsonType": "string"
+                    },
+                    "balanceAllowed": {
+                        "bsonType": "bool"
+                    },
+                    "currencyCode": {
+                        "bsonType": "string"
+                    },
+                    "internationalPaymentsAllowed": {
+                        "bsonType": "bool"
+                    },
+                    "status": {
+                        "bsonType": "string"
+                    },
+                    "transactionsAllowed": {
+                        "bsonType": "bool"
+                    }
+                },
+                "title": "Accounts"
+            }
+        },
+        "addressList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "addressType": {
+                        "bsonType": "string"
+                    },
+                    "country": {
+                        "bsonType": "string"
+                    },
+                    "postCodeId": {
+                        "bsonType": "string"
+                    },
+                    "province": {
+                        "bsonType": "string"
+                    },
+                    "regionId": {
+                        "bsonType": "string"
+                    },
+                    "state": {
+                        "bsonType": "string"
+                    },
+                    "streetBuildingId": {
+                        "bsonType": "string"
+                    },
+                    "streetName": {
+                        "bsonType": "string"
+                    },
+                    "townName": {
+                        "bsonType": "string"
+                    }
+                },
+                "title": "Addresses"
+            }
+        },
+        "agent": {
+            "bsonType": "string"
+        },
+        "cmc": {
+            "bsonType": "string"
+        },
+        "companyAdditionalDetail": {
+            "bsonType": "double"
+        },
+        "companyEndDate": {
+            "bsonType": "date"
+        },
+        "companyId": {
+            "bsonType": "string"
+        },
+        "companyName": {
+            "bsonType": "string"
+        },
+        "companyStartDate": {
+            "bsonType": "date"
+        },
+        "contactDataMOBI": {
+            "bsonType": "string"
+        },
+        "contactDataMail": {
+            "bsonType": "string"
+        },
+        "contactList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "contactData": {
+                        "bsonType": "string"
+                    },
+                    "contactType": {
+                        "bsonType": "string"
+                    }
+                },
+                "title": "Contacts"
+            }
+        },
+        "country": {
+            "bsonType": "string"
+        },
+        "countryDocument": {
+            "bsonType": "string"
+        },
+        "countryIncorporation": {
+            "bsonType": "string"
+        },
+        "documentList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "documentNumber": {
+                        "bsonType": "string"
+                    },
+                    "documentType": {
+                        "bsonType": "string"
+                    }
+                },
+                "title": "Documents"
+            }
+        },
+        "documentNumber": {
+            "bsonType": "string"
+        },
+        "documentType": {
+            "bsonType": "string"
+        },
+        "duration_days": {
+            "bsonType": "long"
+        },
+        "entity": {
+            "bsonType": "string"
+        },
+        "firstName": {
+            "bsonType": "string"
+        },
+        "internalRepresentUser": {
+            "bsonType": "string"
+        },
+        "lastName": {
+            "bsonType": "string"
+        },
+        "relationshipType": {
+            "bsonType": "string"
+        },
+        "segmentLocal": {
+            "bsonType": "string"
+        },
+        "segmentTypeGlobal": {
+            "bsonType": "string"
+        },
+        "segmentTypeLocal": {
+            "bsonType": "string"
+        },
+        "tradeName": {
+            "bsonType": "string"
+        },
+        "typeDisposition": {
+            "bsonType": "string"
+        }
+    },
+    "title": "Customer"
+}
